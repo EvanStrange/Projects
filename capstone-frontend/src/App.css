@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow&display=swap');
+
+.App-header {
+  background-color: #417c61;
+  height: 10%;
+  width: 100%;
+}
+.App-footer {
+  background-color: #417c61;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+.Footer-text{
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+.App-title {
+  font-size: 3.0em;
+  font-family: 'Over the Rainbow', cursive;
+  color: white;
+  text-align: left;
+  padding: 0 0 0 10px;
+  max-width: 100%;
+  padding-top: 2%;
+}
+.Logo {
+  float: left;
+  margin-left: 45%;
+  margin-top: 1%;
+}
+.GitHub-Logo {
+  position: fixed;
+  bottom: 2%;
+  left: 92%;
+  right: 0px;
+  margin-bottom: 0px;
+}
