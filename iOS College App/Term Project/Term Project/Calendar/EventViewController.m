@@ -1,0 +1,44 @@
+//
+//  EventViewController.m
+//  Calendar
+//
+//  Created by Branko Cirovic on 2018-01-22.
+//  Copyright © 2018 Branko Cirovic. All rights reserved.
+
+#import "EventViewController.h"
+#import "ViewController.h"
+#import "Event.h"
+
+@interface EventViewController ()
+
+@end
+
+@implementation EventViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+    self.title = @"Event";
+    _dateLabel.text = _stringDate;
+    _type1.text = _eventVType;
+    _descriptions1.text = _eventVDescriptions;
+    
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
+
+@end

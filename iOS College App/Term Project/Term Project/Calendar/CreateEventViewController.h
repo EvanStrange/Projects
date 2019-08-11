@@ -1,0 +1,29 @@
+//
+//  CreateEventViewController.h
+//  CALENDAR
+//
+//  Created by Evan Strange
+//  Copyright © 2019 Evan Strange. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "Event.h"
+#import <UIKit/UIView.h>
+#import <sqlite3.h>
+
+
+@interface CreateEventViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UILabel *dateLabel;
+@property (strong, nonatomic) NSString *stringDate;
+
+@property (weak, nonatomic) IBOutlet UITextField *editType;
+@property (weak, nonatomic) IBOutlet UITextField *editDescription;
+@property (weak, nonatomic) IBOutlet UILabel *status;
+
+- (IBAction)saveFind:(id)sender;
+
+@property (strong, nonatomic) NSString *databasePath;
+@property (nonatomic) sqlite3 *contactDB;
+
+@end
