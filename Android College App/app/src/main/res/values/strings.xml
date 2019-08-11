@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">College of the South Pacific</string>
+
+    <string name="title_activity_metrobus">Metrobus</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_main_news">News Main</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_contacts_main">ContactsMainActivity</string>
+</resources>
